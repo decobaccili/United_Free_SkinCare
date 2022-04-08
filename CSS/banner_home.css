@@ -1,0 +1,97 @@
+.header{
+  width: 100vw;
+  height: 650px;
+  background-image: url("../img/home-hero-lg1.jpg");
+  background-size: content;  
+}
+
+.header__menu{
+  display: flex;
+  align-items: center;
+  
+}
+
+.header__logo{
+  background-image: url("../img/Logo2.svg");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 100px;
+  margin: 50px 0 0 100px;  
+}
+
+.menu__list{
+  display: flex;
+  padding-left: 300px;
+}
+
+.menu__item{
+  list-style: none;
+}
+.menu__item a{
+text-decoration: none;
+color: #fff;
+padding-right: 50px;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+}
+
+.menu__login{
+  display: flex;
+  padding-left: 250px;
+}
+
+.menu__login-item{
+  list-style: none;
+}
+.menu__login-item a{
+text-decoration: none;
+color: #fff;
+padding-right: 50px;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+}
+
+.menu__item a:hover{
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.menu__login-item a:hover{
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 450px;
+  position: absolute;
+  top: 180px;
+  left:300px;
+}
+
+.banner__title{
+  font-family: 'Unica One';
+  font-size: 76px;
+  font-weight: 400;
+  line-height: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner__text{
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.banner__btn-position{
+  margin: 30px auto;
+}

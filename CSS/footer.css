@@ -1,0 +1,89 @@
+.footer{
+  width: 1300px;
+  margin: 70px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__box-contact{
+  width: 220px;
+  justify-content: start;
+}
+
+.footer__box-logo{
+  background-image: url("../img/LogoBlack.svg");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 100px;   
+}
+
+.footer__box-address{
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #6d6d6d;
+  padding-bottom: 20px;
+}
+
+.footer__products{
+  width: 200px;
+  height: 100px;
+  margin-top: -50px;
+  
+}
+
+.footer__products:last-child{
+  margin-right: 150px;
+}
+
+.footer__list{
+  list-style: none;
+  padding: 0;
+}
+
+.footer__title{
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #171b1a;
+}
+
+.footer__item{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #6d6d6d;
+}
+
+.copyright{
+  width: 1000px;
+  margin: 70px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright__text{
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #6d6d6d;
+}
+
+.copyright__text:last-child{
+  display: flex;
+  align-items: center;
+}
+
+.copyright__text img{
+  padding-left: 20px;
+}
+
+.footer__item:hover{
+  cursor: pointer;
+  color: #2c2b2b;
+}
+

@@ -1,0 +1,29 @@
+.mask{
+  width: 1300px;
+  height: 750px;
+  margin: 70px 0;
+  display: flex;
+}
+
+.mask__box{
+  width: 600px;
+  height: 250px;
+  background-color: #fff;
+  position: absolute;
+  top: 4700px;
+  left: 830px;
+  text-align: start;
+  padding: 50px;
+  border: 1px solid f0f0f0;
+  
+}
+
+.mask__title{
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  color: #171b1a;
+  margin-right: 30px;
+}
+

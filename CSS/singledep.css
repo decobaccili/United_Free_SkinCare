@@ -1,0 +1,36 @@
+.singledep{
+  width: 700px;
+  height: 200px;
+  display: flex;
+  background-color: #FFF;
+  position: absolute;
+  top: 600px;
+  left: 430px;
+  border: none;
+}
+
+.singledep img{
+  height: 200px;
+  width: 200px;
+}
+
+.singledep__text{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #6d6d6d;
+  padding: 10px 50px 0 50px;
+  text-align: start;
+}
+
+.singledep__name{
+  font-family: 'Unica One';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #c0335d;
+  text-transform: uppercase;
+  text-align: start;
+  padding-left: 50px;
+}

@@ -1,0 +1,41 @@
+.banner__btn{
+  border: none;
+  width: 250px;
+  height: 79px;
+  color: #171b1a;
+  background-color: #fff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.btn__black{
+  border: none;
+  width: 250px;
+  height: 79px;
+  color: #fff;
+  background-color: #171b1a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.btn__black:hover{
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #424444;
+}
+
+.banner__btn:hover{
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: rgb(199, 195, 195);
+}
