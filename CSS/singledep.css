@@ -5,8 +5,9 @@
   background-color: #FFF;
   position: absolute;
   top: 600px;
-  left: 430px;
+  left: 25%;
   border: none;
+  margin: 0 auto;
 }
 
 .singledep img{
