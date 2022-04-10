@@ -1,8 +1,7 @@
 .effortless{
-  width: 1300px;
-  height: 1000px;
-  margin: 100px 100px;
- 
+  width: 99.8%;
+  height: 1200px;
+  margin: 100px auto 50px auto;
 }
 
 .effortless__title{
@@ -12,11 +11,13 @@
   line-height: 56px;
   text-align: center;
   text-transform: uppercase;
-  margin: 100px 0;
+  margin: 100px auto;
 }
 
 .effortless__container{
   display: flex;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .effortless__container-title{
@@ -25,6 +26,7 @@
   font-family: 'Roboto';
   line-height: 20px;
   color: #171b1a;
+  padding-left: 50px;
 }
 
 .effortless__container-text{
@@ -32,21 +34,35 @@
   font-weight: 400;
   font-family: 'Roboto';
   line-height: 23px;
+  padding-left: 50px;
 }
 
 .effortless__left img{
   margin-bottom: 20px;
+  
 }
+
+.effortless__right img{
+  position: relative;
+  right: -70px;
+}
+
+
 
 .effortless__img{
   position: absolute;
-  left: 390px;
-  top:1590px;
+  left: 285px;
+  top:1750px;
   z-index: -1;
 }
 
 .effortless__left{
-  margin-top: 60px;
+  margin-top: 50px;
+  text-align:left;
+  position: relative;
+  top: 150px;
+  left: -10px;
+  overflow-x: hidden;
 }
 
 .effortless__left:first-child{
@@ -54,17 +70,18 @@
 }
 
 .effortless__right{
+  margin-left: 100px;
   margin-top: 100px;
-  margin-left: 180px;
   text-align: end;
 }
 
 .effortless__right:first-child{
-  margin-top: 250px;
+  margin-top: 400px;
 }
 
 .effortless__btn{
-  position: absolute;
-  left: 620px;
-  top:2400px;
+  
+  margin: 200px 100px 0 100px;
+  
+
 }

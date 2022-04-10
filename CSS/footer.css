@@ -1,8 +1,9 @@
 .footer{
-  width: 1300px;
-  margin: 70px 200px;
+  width: 80%;
+  margin: 70px auto;
   display: flex;
-  justify-content: space-between;
+  
+  box-sizing: border-box;
 }
 
 .footer__box-contact{
@@ -30,12 +31,10 @@
   width: 200px;
   height: 100px;
   margin-top: -50px;
+  padding-left: 100px;
   
 }
 
-.footer__products:last-child{
-  margin-right: 150px;
-}
 
 .footer__list{
   list-style: none;
@@ -59,10 +58,11 @@
 }
 
 .copyright{
-  width: 1000px;
-  margin: 70px 200px;
+  width: 80%;
+  margin: 70px 0px 70px 100px;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .copyright__text{
@@ -86,4 +86,5 @@
   cursor: pointer;
   color: #2c2b2b;
 }
+
 
