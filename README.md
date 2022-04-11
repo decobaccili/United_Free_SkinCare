@@ -1,7 +1,7 @@
 ![Logo of the project](https://github.com/decobaccili/United_Free_SkinCare/blob/master/img/Logo2.svg)
 
 ## United & Free Natural SkinCare - Landing Page
-This is a Landing Page from a Cosmetic Shop 
+This is a non responsive Landing Page from a Cosmetic Shop.
 
 ## Technology 
 
